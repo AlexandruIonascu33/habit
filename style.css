@@ -170,6 +170,13 @@ h1 {
 	color: rgb(85, 0, 131);
 	font-size: 1.125rem;
 }
+@media screen and (max-width: 1080px) {
+    .todo-item .todo-content input {
+        color: rgb(85, 0, 131);
+        font-size: .725rem;
+    }
+    
+}
 
 .todo-item .actions {
 	display: flex;
@@ -184,7 +191,17 @@ h1 {
 	cursor: pointer;
 	transition: 0.2s ease-in-out;
 }
-
+@media screen and (max-width: 1080px) {
+    
+    .todo-item .actions button {
+        border-radius: 1.5rem;
+        display: block;
+        padding: 0.2rem;
+        display: inline-block;
+        color: rgb(173, 0, 139);
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+}}
 .todo-item .actions button:hover {
 	opacity: 0.75;
 }
