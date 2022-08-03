@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <h1>
+Habit tracker
+    </h1>
+ 
+    <!-- 
+        template
+        1. sectiune de input
+    2. textul adaugat
+3. butoane de edit. sterge. done
+4. counter de bifari
+5. optiune - la x bifari se sterge
+
+
+
+check counter for every habit done
+can only check one time per day
+can check for the day before
+verify if it is checked today
+
+
+
+
+-->
+</head>
+<body>
+    <section class="create-todo">
+        <h3>Create a habit:</h3>
+        <form id="new-todo-form">
+            <h4></h4>
+            <input 
+                type="text" 
+                placeholder="Write your habit here"
+                name="content"
+                id="content" />
+            
+            <h4>Pick a category</h4>
+            <div class="options">
+                <label>
+                    <input type="radio" name="category" id="category1" value="0" /> 
+                    <span class="bubble business"></span>
+                    <div>Memento</div>
+                </label>
+                <label>
+                    <input type="radio" name="category" id="category2" value="1" />
+                    <span class="bubble personal"></span>
+                    <div>Habit</div>
+                </label>
+            </div>
+
+            <input type="submit" value="Add" class="geronimo"/>
+        </form>
+        </section>
+    <section class="todo-list">
+        <h3>TODO LIST</h3>
+        <div class="list" id="todo-list"></div>
+    </section>
+    <div>
+        <button id="b1" class="days">1</button>
+        <button id="b2" class="days">2</button>
+        <button id="b3" class="days">3</button>
+        <button id="b4"class="days">4</button>
+        <button id="b5"class="days">5</button>
+        <button id="b6"class="days">6</button>
+        <button id="b7"class="days">7</button>
+        <button id="b8"class="days">8</button>
+        <button id="b9"class="days">9</button>
+        <button id="b10"class="days">10</button>
+        <button id="b11"class="days">11</button>
+        <button id="b12"class="days">12</button>
+        <button id="b13"class="days">13</button>
+        <button id="b14"class="days">14</button>
+        <button id="b15"class="days">15</button>
+        <button id="b16"class="days">16</button>
+        <button id="b17"class="days">17</button>
+        <button id="b18"class="days">18</button>
+        <button id="b19"class="days">19</button>
+        <button id="b20"class="days">20</button>
+        <button id="b21"class="days">21</button>
+        <button id="b22"class="days">22</button>
+        <button id="b23"class="days">23</button>
+        <button id="b24"class="days">24</button>
+        <button id="b25"class="days">25</button>
+        <button id="b26"class="days">26</button>
+        <button id="b27"class="days">27</button>
+        <button id="b28"class="days">28</button>
+        <button id="b29"class="days">29</button>
+        <button id="b30"class="days">30</button>
+        <button id="b31"class="days">31</button>
+    <div> <p id="completedtodos"></p></div>
+    
+    </div>
+
+    <p id="clockdemo"></p>
+    <p id="totaltodos"class="completion"></p>
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
