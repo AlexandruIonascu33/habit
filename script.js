@@ -85,12 +85,12 @@ function DisplayTodos () {
 		edit.innerHTML = 'Edit';
 		deleteButton.innerHTML = 'Delete';
 		rewind.innerHTML = 'Rewind';
-		check.innerHTML = `<input type="text" value="${todo.timescompleted}">`;
+		check.innerHTML = `<input type="text" value="${todo.timescompleted}"class="timesdoneclass" readonly>`;
 		
 		
 
 		label.appendChild(input);
-		label.appendChild(yesterday);
+		todoitem.appendChild(yesterday);
 		label.appendChild(span);
 		actions.appendChild(edit);
 		actions.appendChild(deleteButton);
