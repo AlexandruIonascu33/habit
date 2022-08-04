@@ -511,7 +511,7 @@ todoItem.classList.add('doneforyesterday');
 			localStorage.setItem ("totalpoints", JSON.stringify(totalscore));
 			
 		}
-	    document.getElementById("totaltodos").innerHTML = `You did this much mementos:  ${totalpoints}`;
+	    document.getElementById("totaltodos").innerHTML = `You did this many mementos:  ${totalpoints}`;
 		
 	
 	
