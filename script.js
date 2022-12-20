@@ -135,7 +135,7 @@ function deleteit () {
 		}
 				
 			document.getElementById("b4").addEventListener("click", displaycompletedtodos4);
-		document.getElementById("41").addEventListener("click", deleteinside);
+		document.getElementById("b4").addEventListener("click", deleteinside);
 			function displaycompletedtodos4 () {
 					
 					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[4]} </br>`;}
