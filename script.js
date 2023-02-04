@@ -118,45 +118,71 @@ function deleteit () {
 		document.getElementById("b1").addEventListener("click", deleteinside);
 		function displaycompletedtodos1 () {
 				
-				document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[1]} </br>`;}
+				if (todo[1]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
+		}
 			
 
 			document.getElementById("b2").addEventListener("click", displaycompletedtodos2);
 		document.getElementById("b2").addEventListener("click", deleteinside);
 		function displaycompletedtodos2 () {
 				
-				document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[2]} </br>`;}
+				if (todo[2]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
+		}
 				
 			document.getElementById("b3").addEventListener("click", displaycompletedtodos3);
 		document.getElementById("b3").addEventListener("click", deleteinside);
 		function displaycompletedtodos3 () {
 				
-				document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[3]} </br>`;
+			if (todo[3]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 		}
 				
 			document.getElementById("b4").addEventListener("click", displaycompletedtodos4);
 		document.getElementById("b4").addEventListener("click", deleteinside);
 			function displaycompletedtodos4 () {
 					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[4]} </br>`;}
+					if (todo[4]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
+			}
 					
 			document.getElementById("b5").addEventListener("click", displaycompletedtodos5);
 		document.getElementById("b5").addEventListener("click", deleteinside);
 			function displaycompletedtodos5 () {
 					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[5]} </br>`;}
+					if (todo[4]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
+			}
 					
 			document.getElementById("b6").addEventListener("click", displaycompletedtodos6);
 		document.getElementById("b6").addEventListener("click", deleteinside);
 			function displaycompletedtodos6 () {
 						
-						document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[6]} </br>`;}
+						if (todo[6]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
+			}
 						
 			document.getElementById("b7").addEventListener("click", displaycompletedtodos7);
 		document.getElementById("b7").addEventListener("click", deleteinside);
 			function displaycompletedtodos7 () {
 					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[7]} </br>`;
+					if (todo[7]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 				
 					
 				}
@@ -164,167 +190,231 @@ function deleteit () {
 		document.getElementById("b8").addEventListener("click", deleteinside);
 			function displaycompletedtodos8 () {
 					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[8]} </br>`;
+					if (todo[8]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b9").addEventListener("click", displaycompletedtodos9);
 		document.getElementById("b9").addEventListener("click", deleteinside);
 			function displaycompletedtodos9 () {
 					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[9]} </br>`;
+					if (todo[9]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b10").addEventListener("click", displaycompletedtodos10);
 		document.getElementById("b10").addEventListener("click", deleteinside);
 			function displaycompletedtodos10 () {
-					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[10]} </br>`;
+					if (todo[10]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b11").addEventListener("click", displaycompletedtodos11);
 		document.getElementById("b11").addEventListener("click", deleteinside);
 			function displaycompletedtodos11 () {
 					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[11]} </br>`;
+					if (todo[11]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b12").addEventListener("click", displaycompletedtodos12);
 		document.getElementById("b12").addEventListener("click", deleteinside);
 			function displaycompletedtodos12 () {
 					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[12]} </br>`;
+					if (todo[12]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b13").addEventListener("click", displaycompletedtodos13);
 		document.getElementById("b13").addEventListener("click", deleteinside);
 			function displaycompletedtodos13 () {
 					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[13]} </br>`;
+				if (todo[13]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b14").addEventListener("click", displaycompletedtodos14);
 		document.getElementById("b14").addEventListener("click", deleteinside);
 				function displaycompletedtodos14 () {
 						
-						document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[14]} </br>`;
+						if (todo[14]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 						
 					}
 					document.getElementById("b15").addEventListener("click", displaycompletedtodos15);
 		document.getElementById("b15").addEventListener("click", deleteinside);
 			function displaycompletedtodos15 () {
 					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[15]} </br>`;
+					if (todo[15]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b16").addEventListener("click", displaycompletedtodos16);
 		document.getElementById("b16").addEventListener("click", deleteinside);
 			function displaycompletedtodos16 () {
 					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[16]} </br>`;
+				if (todo[16]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b17").addEventListener("click", displaycompletedtodos17);
 		document.getElementById("b17").addEventListener("click", deleteinside);
 			function displaycompletedtodos17 () {
 					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[17]} </br>`;
+				if (todo[17]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b18").addEventListener("click", displaycompletedtodos18);
 		document.getElementById("b18").addEventListener("click", deleteinside);
 			function displaycompletedtodos18 () {
 					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[18]} </br>`;
+				if (todo[18]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b19").addEventListener("click", displaycompletedtodos19);
 		document.getElementById("b19").addEventListener("click", deleteinside);
 			function displaycompletedtodos19 () {
 					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[19]} </br>`;
+				if (todo[19]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b20").addEventListener("click", displaycompletedtodos20);
 		document.getElementById("b20").addEventListener("click", deleteinside);
 			function displaycompletedtodos20 () {
 					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[20]} </br>`;
+				if (todo[20]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b21").addEventListener("click", displaycompletedtodos21);
 		document.getElementById("b21").addEventListener("click", deleteinside);
 			function displaycompletedtodos21 () {
 					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[21]} </br>`;
+			if (todo[21]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b22").addEventListener("click", displaycompletedtodos22);
 		document.getElementById("b22").addEventListener("click", deleteinside);
 			function displaycompletedtodos22 () {
-					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[22]} </br>`;
+					if (todo[22]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b23").addEventListener("click", displaycompletedtodos23);
 		document.getElementById("b23").addEventListener("click", deleteinside);
 			function displaycompletedtodos23 () {
-					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[23]} </br>`;
+					if (todo[23]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b24").addEventListener("click", displaycompletedtodos24);
 		document.getElementById("b24").addEventListener("click", deleteinside);
 			function displaycompletedtodos24 () {
 					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[24]} </br>`;
+					if (todo[24]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b25").addEventListener("click", displaycompletedtodos25);
 		document.getElementById("b25").addEventListener("click", deleteinside);
 			function displaycompletedtodos25 () {
 					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[25]} </br>`;
-					
+if (todo[25]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;					
 				}
 				document.getElementById("b26").addEventListener("click", displaycompletedtodos26);
 		document.getElementById("b26").addEventListener("click", deleteinside);
 			function displaycompletedtodos26 () {
-				
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[26]} </br>`;
+				if (todo[26]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b27").addEventListener("click", displaycompletedtodos27);
 		document.getElementById("b27").addEventListener("click", deleteinside);
 			function displaycompletedtodos27 () {
-					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[27]} </br>`;
+				if (todo[27]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b28").addEventListener("click", displaycompletedtodos28);
 		document.getElementById("b28").addEventListener("click", deleteinside);
 				function displaycompletedtodos28 () {
 						
-						document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[28]} </br>`;
+				if (todo[28]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 						
 					}
 					document.getElementById("b29").addEventListener("click", displaycompletedtodos29);
 		document.getElementById("b29").addEventListener("click", deleteinside);
 			function displaycompletedtodos29 () {
-					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[29]} </br>`;
+					if (todo[29]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b30").addEventListener("click", displaycompletedtodos30);
 		document.getElementById("b30").addEventListener("click", deleteinside);
 			function displaycompletedtodos30 () {
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[30]} </br>`;
+				if (todo[30]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				document.getElementById("b31").addEventListener("click", displaycompletedtodos31);
 		document.getElementById("b31").addEventListener("click", deleteinside);
 			function displaycompletedtodos31 () {
-					
-					document.getElementById("completedtodos").innerHTML = `${todo.content} was ${todo[31]} </br>`;
+					if (todo[31]>0) {
+						document.getElementById("completedtodos").innerHTML += `${todo.content} was done </br>`;
+					}
+					else document.getElementById("completedtodos").innerHTML += `${todo.content} was not done </br>`;
 					
 				}
 				
@@ -405,6 +495,7 @@ todoItem.classList.add('doneforyesterday');
             if (todo.done) {
 				todo.timescompleted -= 1;
 			todo.done = false;
+		    todo[curentdate] = false
 			}
 			if (todo.doneforyesterday) {
 				todo.timescompleted -= 1;
@@ -460,6 +551,19 @@ todoItem.classList.add('doneforyesterday');
 		}
 	    document.getElementById("totaltodos").innerHTML = `You did this many mementos:  ${totalpoints}`;
 		
+		
+		todos.forEach(todo =>{
+			curentdate = new Date().getDate()
+			if (todo[curentdate-1] != true && todo[curentdate-2] != true && todo[curentdate] != true ) {
+				todo.timescompleted = 0
+				console.log(todo.content);
+			}
+			
+			localStorage.setItem('todos', JSON.stringify(todos));
+		     
+				
+				
+		});
 	
 	
 	})
